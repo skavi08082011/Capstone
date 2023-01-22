@@ -1,0 +1,15 @@
+instance_tag:
+        - master
+        - slave1
+        - slave2
+
+lib_names:
+        - boto
+        - boto3
+
+sg_name: Allow_All_SG1
+region_name: us-east-1
+subnet_name: subnet-05ab91c17b65175fd
+ami_id: ami-0b5eea76982371e91
+keypair: awskey
+instance_flavour: t2.small
